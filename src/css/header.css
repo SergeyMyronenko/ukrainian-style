@@ -28,11 +28,12 @@
     border-radius: 15px;
     border: 1px solid rgba(252, 249, 249, 0.10);
     background-color: rgba(252, 249, 249, 0.10);
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),;
 }
 .social-list-link:hover, 
 .social-list-link:focus {
     border-color:  var(--yellow);
+    background-color: var(--primary-color);
 }
 .menu-btn {
     width: 44px;
