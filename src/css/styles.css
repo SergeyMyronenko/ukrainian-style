@@ -18,6 +18,11 @@
   --yellow: #ecd979;
   --white: #fcf9f9;
 }
+body {
+  font-family: 'Manrope', sans-serif;
+  color: var(--white);
+  background-color: var(--primary-color);
+}
 
 .container {
   margin: 0 auto;
