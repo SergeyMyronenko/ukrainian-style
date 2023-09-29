@@ -1,0 +1,35 @@
+.testimonials {
+}
+.container {
+}
+.testimonial-main {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 1.37; /* 137.5% */
+  letter-spacing: -0.03em;
+  margin-bottom: 40px;
+}
+.testimonial-box {
+  max-width: 335px;
+  border: 1px solid rgba(252, 249, 249, 0.1);
+  border-radius: 4px;
+  padding: 18px 18px 18px 18px;
+}
+.testimonial-image {
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.testimonial-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.5; /* 150% */
+  text-align: center;
+  margin-bottom: 8px;
+}
+.testimonial-text {
+  color: rgba(252, 249, 249, 0.4);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
