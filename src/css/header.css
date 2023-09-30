@@ -1,0 +1,202 @@
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+}
+.header-nav-list {
+    display: none;
+}
+.header-address {
+    display: none;
+}
+.social-list {
+    display: flex;
+    gap: 12px;
+    margin-right: 12px;
+    margin-left: auto;
+}
+.social-list-icon {
+    fill: var(--white)
+}
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    background-color: rgba(252, 249, 249, 0.10);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),;
+}
+.social-list-link:hover, 
+.social-list-link:focus {
+    border-color:  var(--yellow);
+    background-color: var(--primary-color);
+}
+.menu-btn {
+    width: 44px;
+    height: 44px;
+    background-color: transparent;
+    border: none;
+}
+
+
+/* =========== MODAL WINDOW  =============== */
+/* =========== MODAL WINDOW  =============== */
+.menu-window {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--yellow);
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
+    transform: translateX(-100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-image: url(../img/header/bgi-header.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 120%;
+    background-size: contain;
+}
+.menu-window.is-open {
+    transform: translateX(0);
+}
+.menu-window-top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-address-phone {
+    color: var(--primary-color);
+    font-family: Manrope;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.16;
+    border-radius: 15px;
+    border: 1px solid rgba(28, 34, 37, 0.10);
+    padding: 12px 20px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.menu-address-phone:focus {
+    border-color:  var(--yellow);
+}
+.menu-btn-close {
+    width: 36px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-close-img {
+    stroke: var(--primary-color);
+}
+.menu-nav-list {
+    margin-top: 188px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+}
+.menu-list-link {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+}
+
+/* ==============  FOR TABLET ================ */
+/* ==============  FOR TABLET ================ */
+@media screen and (min-width: 768px) {
+   .menu-window {
+    max-width: calc(100%/2);
+    transform: translateX(-100%);
+
+   }
+   .menu-window.is-open {
+    transform: translateX(0%);
+}
+}
+
+/* ==============  FOR DESKTOP 1280px ================ */
+/* ==============  FOR DESKTOP 1280px ================ */
+
+
+@media screen and (min-width: 1280px) {
+    .menu-btn-close {
+    display: none;
+}
+.menu-btn {
+    display: none;
+}
+.menu-address-phone {
+    display: none;
+}
+.menu-nav-list {
+    display: none;
+}
+.menu-window {
+    display: none;
+}
+
+
+.header-nav {
+    align-items: center;
+    display: flex;
+    gap: 60px;
+}
+.header-nav-list {
+    display: flex;
+    gap: 25px;
+}
+.header-list-link {
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.28;
+    text-transform: uppercase;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.header-list-link:hover,
+.header-list-link:hover {
+    color: var(--yellow);
+}
+.header-address {
+    display: flex;
+}
+.address-phone {
+    color: var(--white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42;
+    text-transform: uppercase;
+    padding: 14px 28px;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.address-phone:hover,
+.address-phone:focus {
+    border-color: var(--yellow);
+}
+.header-address {
+    margin-left: auto;
+}
+.social-list {
+    margin-left: 20px;
+}
+}
