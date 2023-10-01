@@ -1,69 +1,71 @@
-<div class="container-order">
-  <div class="order-shirt-foto">
-    <img
-      srcset="
-        ../img/your-order/order_tablet.jpg    1x,
-        ../img/your-order/order_tablet@2x.jpg 2x
-      "
-      src="../img/your-order/order_tablet.jpg"
-      width="638"
-      height="521"
-      alt="Shirt foto"
-    />
-  </div>
-  <div>
-    <p class="order-text">
-      <span class="yellov-order-text">Your order</span> is our priority:
-      Personalized approach and quality of service
-    </p>
-    <form>
-      <div class="order-form-wrapper">
-        <div class="order-input-wrapper">
-          <input
-            type="text"
-            class="order-form-input"
-            id="user-name"
-            name="user-name"
-            pattern="[a-zA-Zа-яА-ЯіІїЇєЄ]+"
-            title="Oleksii"
-            required
-            placeholder="Enter your full name"
-          />
-        </div>
+<section id="order">
+    <div class="container-order">
+    <div class="order-shirt-foto">
+        <img
+        srcset="
+            ../img/your-order/order_tablet.jpg    1x,
+            ../img/your-order/order_tablet@2x.jpg 2x
+        "
+        src="../img/your-order/order_tablet.jpg"
+        width="638"
+        height="521"
+        alt="Shirt foto"
+        />
+    </div>
+    <div>
+        <p class="order-text">
+        <span class="yellov-order-text">Your order</span> is our priority:
+        Personalized approach and quality of service
+        </p>
+        <form>
+        <div class="order-form-wrapper">
+            <div class="order-input-wrapper">
+            <input
+                type="text"
+                class="order-form-input"
+                id="user-name"
+                name="user-name"
+                pattern="[a-zA-Zа-яА-ЯіІїЇєЄ]+"
+                title="Oleksii"
+                required
+                placeholder="Enter your full name"
+            />
+            </div>
 
-        <div class="input-email-wrapper">
-          <input
-            type="email"
-            class="order-form-input"
-            id="user-email"
-            name="user_email"
-            required
-            placeholder="Enter your email"
-          />
-        </div>
-        <div class="review-form-field-wrapper-comment">
-          <textarea
-            class="order-form-comment"
-            id="user-comment"
-            name="user-comment"
-            placeholder="Comments"
-          ></textarea>
-        </div>
+            <div class="input-email-wrapper">
+            <input
+                type="email"
+                class="order-form-input"
+                id="user-email"
+                name="user_email"
+                required
+                placeholder="Enter your email"
+            />
+            </div>
+            <div class="review-form-field-wrapper-comment">
+            <textarea
+                class="order-form-comment"
+                id="user-comment"
+                name="user-comment"
+                placeholder="Comments"
+            ></textarea>
+            </div>
 
-        <button class="order-form-button" type="submit">
-          <div class="order-form-button-inner-wrapper">
-            <span class="order">Send</span>
-          <svg
-            class="review-form-field-icon"
-            width="24"
-            height="16"
-            aria-label="user icon"
-          >
-            <use class="order-icon-arrow" href="../img/sprite.svg#icon-arrow"></use>
-          </svg>
+            <button class="order-form-button" type="submit">
+            <div class="order-form-button-inner-wrapper">
+                <span class="order">Send</span>
+            <svg
+                class="review-form-field-icon"
+                width="24"
+                height="16"
+                aria-label="user icon"
+            >
+                <use class="order-icon-arrow" href="../img/sprite.svg#icon-arrow"></use>
+            </svg>
+            </div>
+            </button>
         </div>
-        </button>
-      </div>
-    </form>
-  </div>
-</div>
+        </form>
+    </div>
+    </div>
+</section>
