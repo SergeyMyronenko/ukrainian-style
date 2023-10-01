@@ -23,7 +23,9 @@ body {
   color: var(--white);
   background-color: var(--primary-color);
 }
-
+section {
+  padding: 40px 0;
+}
 .container {
   margin: 0 auto;
   padding: 0 20px;
@@ -35,12 +37,18 @@ body {
   }
 }
 @media (min-width: 768px) {
+  section {
+    padding: 50px 0;
+  }
   .container {
     padding: 0 32px;
     max-width: 768px;
   }
 }
 @media (min-width: 1280px) {
+  section {
+    padding: 75px 0;
+  }
   .container {
     padding: 0 100px;
     max-width: 1280px;
