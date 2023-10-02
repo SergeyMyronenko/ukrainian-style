@@ -1,14 +1,31 @@
+.main-order-container {
+    max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.order-background-img {
+    width: 375px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: 
+      url(../img/your-order/order_back_img_mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 80px;
+  }
 .order-shirt-foto {
     display: none;
 
 }
-.container-order {
+.order-container {
     display: flex;
     background-color: var(--primary-color, #1c2225);
     padding-left: 20px;
     padding-right: 20px;
 }
-.order-text {
+.order-title {
     color: var(--white, #FCF9F9);
     font-size: 32px;
     font-style: normal;
@@ -17,13 +34,9 @@
     letter-spacing: -0.03em;
     margin-bottom: 40px;
 }
-.yellov-order-text {
+.yellow-order-title {
     color: var(--yellow, #ECD979);
 }
-/* .order-form-wrapper {
- display: flex;
-    gap: 20px;
-} */
 .order-form-input, .order-form-comment {
     background-color: var(--primary-color, #1c2225);
     width: 100%;
@@ -31,19 +44,20 @@
     border: 1px solid rgba(252, 249, 249, 0.10);
     padding: 14px 16px;
 
-
+  
 }
 .order-form-input {
 margin-bottom: 20px;
 }
 .order-form-comment {
     margin-bottom: 40px;
+    min-height: 196px;
+    resize: none;
     }
 .order-form-button-inner-wrapper {
  display: flex;
-    align-items: center;
-    justify-content: center;
  gap: 10px;
+ justify-content: center;
     }
 .order-form-button {
         color: var(--white, #FCF9F9);
@@ -54,7 +68,7 @@ margin-bottom: 20px;
         letter-spacing: -0.035em;
         display: block;
         min-width: 145px;
-        height: 56px;
+        height: 49px;
         border-radius: 15px;
         border: 1px solid rgba(252, 249, 249, 0.10);
         margin-left: auto;
@@ -68,11 +82,110 @@ margin-bottom: 20px;
     }
 /* ========== TABLET ========== */
 @media screen and (min-width: 768px) {
+    .main-order-container {
+        max-width: 768px;
+    }
+    .order-background-img {
+        width: 768px;
+        height: 776px;
+        background-image: 
+          url(../img/your-order/order_back_img_tablet.jpg);
+        margin-bottom: 100px;
+    }
     .order-shirt-foto {
         display: contents;
-    
+        padding-right: 32px;
+        padding-left: auto;
     }
+.order-container {
+    flex-direction: column-reverse;
+    gap: 100px;
+    margin-bottom: 179px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.order-title {
+    width: 542px;
+    font-size: 44px;
+    line-height: 1.32;
+    letter-spacing: -0.03em;
+}
+.order-form-wrapper {
+    width: 508px;
+}
+.order-form-button {
+    margin-left: 0;
+}
+/* ========== TABLET 2x ========== */
 } 
-/* ========== DESKTOP========== */
-/* @media screen and (min-width: 1158px) {
-} */
+@media screen and (min-resolution: 192dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppx) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
+    .order-background-img {
+        background-image: 
+        url(../img/your-order/order_back_img_tablet@2x.jpg);
+  }
+}
+/* ========== DESKTOP ========== */
+ @media screen and (min-width: 1280px) {
+    .main-order-container {
+        max-width: 1280px;
+    }
+    .order-background-img {
+        width: 1282px;
+        height: 776px;
+        background-image: 
+          url(../img/your-order/order_back_img_desk.jpg);
+        margin-bottom: 150px;
+        
+    }
+    .order-container {
+        flex-direction: row;
+        gap: 50px;
+        margin-bottom: 179px;
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+    .order-shirt-foto {
+        height: 521px;
+    }
+}
+/* ========== DESKTOP 2x ========== */
+@media screen and (min-resolution: 192dpi) and (min-width: 1280px),
+  screen and (min-resolution: 2dppx) and (min-width: 1280px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
+    .order-background-img {
+        background-image: 
+        url(../img/your-order/order_back_img_desk@2x.jpg);
+  }
+}
+/* ========== DESKTOP 1440 ========== */
+@media screen and (min-width: 1440px) {
+    .main-order-container {
+        max-width: 1440px;
+    }
+
+    .order-background-img {
+        width: 1440px;
+        height: 776px;
+        background-image: 
+          url(../img/your-order/order_back_img_desktop.jpg);
+
+    }
+    .order-container {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .order-title {
+        width: 666px;
+    }
+}
+/* ========== DESKTOP 1440 2x ========== */
+@media screen and (min-resolution: 192dpi) and (min-width: 1440px),
+  screen and (min-resolution: 2dppx) and (min-width: 1440px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 1440px) {
+    .order-background-img {
+        background-image: 
+        url(../img/your-order/order_back_img_desktop@2x.jpg);
+  }
+}
