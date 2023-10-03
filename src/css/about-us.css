@@ -21,26 +21,31 @@ letter-spacing: -0.04em;
     margin-bottom: 20px;
 }
 .about-img{
-    margin-top: 50px;
-    margin-bottom: 60px;
+     margin-top: 50px; 
+
 }
-.about-all-content{
-    background-image: url(../img/about-us/about-elements-mv.png);
+.about-section{
+    padding-bottom: 18px;
+}
+.about-ornament-wr{
+    padding-bottom: 62px;
+    background-image: url(../img/about-us/about-elements.png);
     background-position: right bottom;
     background-repeat:no-repeat;
 }
 @media (resolution: 192dpi) {
-    .about-all-content {
-      background-image: url(../img/about-us/about-elements-mv-2x.png);
+    .about-ornament-wr {
+      background-image: url(../img/about-us/about-elements@2x.png);
     }
 }
 @media (min-width: 768px){
-    .about-all-content {
+    .about-ornament-wr {
+        padding-bottom: 50px;
         background-image: url(../img/about-us/about-elements-dt1280.png);
     }
     .about-img{
         margin-top: 40px;
-        margin-bottom: 50px;
+        
     }
     .about-text{
     font-size: 16px;
@@ -53,16 +58,24 @@ letter-spacing: -0.04em;
     }
 } 
 @media (resolution: 192dpi) and (min-width: 768px){
-    .about-all-content {
+    .about-ornament-wr {
       background-image: url(../img/about-us/about-elements-dt1280-2x.png);
     }
 }
 @media (min-width: 1280px)
+
 {
+    .about-ornament-wr{
+        padding-bottom: 80px;
+        /* background-image: url(../img/about-us/about-elements-dt1280.png);
+        background-position: right bottom;
+        background-repeat: no-repeat; */
+    }
     .about-all-content{
         display: flex;
         gap: 50px;
-        padding-bottom: 80px;
+        /* padding-bottom: 80px;
+        background-position: right bottom; */
     }
     .about-img{
         margin-top: 0;
@@ -72,4 +85,8 @@ letter-spacing: -0.04em;
         padding-top: 40px;
         padding-bottom: 40px;
     }
+    .about-section{
+        padding-bottom: 52px;
+    }
+    
 }
