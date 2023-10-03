@@ -1,0 +1,70 @@
+.about-title {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: var(--white, #FCF9F9);
+font-family: Manrope;
+font-size: 32px;
+font-weight: 500;
+line-height: 1.38; 
+letter-spacing: -0.03em;
+margin-bottom: 40px;
+}
+.about-text{
+    color: rgba(252, 249, 249, 0.40);
+font-family: Manrope;
+font-size: 14px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.04em;
+}
+.about-text-margin{
+    margin-bottom: 20px;
+}
+.about-img{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.about-section{
+    background-image: url(../img/about-us/about-elements-mv.png);
+    background-position: right bottom;
+    background-repeat:no-repeat;
+}
+@media (resolution: 192dpi) {
+    .about-section {
+      background-image: url(../img/about-us/about-elements-mv-2x.png);
+    }
+}
+@media (min-width: 768px){
+    .about-section {
+        background-image: url(../img/about-us/about-elements-dt1280.png);
+    }
+    .about-img{
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    .about-text{
+    font-size: 16px;
+    }
+    .about-title {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    font-size: 44px;
+    line-height: 1.45; 
+    }
+} 
+@media (resolution: 192dpi) and (min-width: 768px){
+    .about-section {
+      background-image: url(../img/about-us/about-elements-dt1280-2x.png);
+    }
+}
+@media (min-width: 1280px)
+{
+    .about-all-content{
+        display: flex;
+        gap: 50px;
+    }
+    .about-img{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
