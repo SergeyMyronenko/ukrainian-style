@@ -24,18 +24,18 @@ letter-spacing: -0.04em;
     margin-top: 50px;
     margin-bottom: 60px;
 }
-.about-section{
+.about-all-content{
     background-image: url(../img/about-us/about-elements-mv.png);
     background-position: right bottom;
     background-repeat:no-repeat;
 }
 @media (resolution: 192dpi) {
-    .about-section {
+    .about-all-content {
       background-image: url(../img/about-us/about-elements-mv-2x.png);
     }
 }
 @media (min-width: 768px){
-    .about-section {
+    .about-all-content {
         background-image: url(../img/about-us/about-elements-dt1280.png);
     }
     .about-img{
@@ -53,7 +53,7 @@ letter-spacing: -0.04em;
     }
 } 
 @media (resolution: 192dpi) and (min-width: 768px){
-    .about-section {
+    .about-all-content {
       background-image: url(../img/about-us/about-elements-dt1280-2x.png);
     }
 }
@@ -62,9 +62,14 @@ letter-spacing: -0.04em;
     .about-all-content{
         display: flex;
         gap: 50px;
+        padding-bottom: 80px;
     }
     .about-img{
         margin-top: 0;
         margin-bottom: 0;
+    }
+    .about-content{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }
