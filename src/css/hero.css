@@ -59,7 +59,7 @@
     height: 10px;
     fill: var(--yellow);
     transform: rotate(-30deg);
-
+}
 
 .hero-button-link {
   display: inline-flex;
