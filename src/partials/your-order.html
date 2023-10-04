@@ -1,22 +1,21 @@
 <section id="order">
-  <div class="main-order-container">
+  <div class="container main-order-container">
     <div class="order-background-img"></div>
     <div class="order-container">
-      <div class="order-shirt-foto">
-        <img
-          srcset="
-            ../img/your-order/order_desk.jpg 524w,
-            ../img/your-order/order_desk@2x.jpg 1048w,
-            ../img/your-order/order_tablet.jpg 638w,
-            ../img/your-order/order_tablet@2x.jpg 1276w,
-          "
-          sizes="(min-width: 1280px) 524px, (max-width: 1279px) 638px"
-          src="../img/your-order/order_tablet.jpg"
-          alt="Shirt foto"
-        />
-        
-      </div>
-      <div>
+      <img
+        class="order-shirt-foto"
+        srcset="
+          ./img/your-order/order_desk.jpg       524w,
+          ./img/your-order/order_desk@2x.jpg   1048w,
+          ./img/your-order/order_tablet.jpg     638w,
+          ./img/your-order/order_tablet@2x.jpg 1276w
+        "
+        sizes="(min-width: 1280px) 524px, (max-width: 1279px) 638px"
+        src="./img/your-order/order_tablet.jpg"
+        alt="Shirt foto"
+      />
+
+      <div class="order-box">
         <h2 class="order-title">
           <span class="yellow-order-title">Your order</span> is our priority:
           Personalized approach and quality of service
@@ -72,7 +71,7 @@
                 >
                   <use
                     class="order-icon-arrow"
-                    href="../img/sprite.svg#icon-arrow"
+                    href="./img/sprite.svg#icon-arrow"
                   ></use>
                 </svg>
               </div>
@@ -81,7 +80,5 @@
         </form>
       </div>
     </div>
-    <div class="ornamet-background-img"></div>
   </div>
- 
 </section>
