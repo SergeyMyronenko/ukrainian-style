@@ -1,14 +1,13 @@
 /* ========================================================= Mobile ========================================================= */
 .hero-group {
-  display: none;
+    display: none;
 }
 
 .hero-img-ellipse {
-  display: none;
+    display: none;
 }
 
 .hero {
-
     position: relative;
     padding-top: 60px;
 }
@@ -21,27 +20,13 @@
     letter-spacing: 0.03em;
     margin: 0 0 20px 0;
     max-width: 335px;
-
-  position: relative;
-}
-
-.hero-title {
-  color: var(--white);
-  font-size: 44px;
-  font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
-  margin: 60px 0 20px 0;
-  max-width: 335px;
-
 }
 
 .hero-title-span {
-  color: var(--yellow);
+    color: var(--yellow);
 }
 
 .hero-button {
-
     display: block;
     height: 49px;
     padding: 14px 41px;
@@ -59,22 +44,6 @@
     margin-bottom: 40px;
     margin-left: 90px;
     margin-right: auto;
-  display: flex;
-  height: 49px;
-  padding: 14px 41px;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  color: var(--white, #fcf9f9);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  margin-left: 90px;
 }
 
 .hero-button:hover,
@@ -83,21 +52,20 @@
 }
 
 .hero-link-icon {
-  width: 26px;
-  height: 10px;
-  fill: var(--yellow);
-  transform: rotate(-30deg);
-  transform-origin: right;
+    width: 26px;
+    height: 10px;
+    fill: var(--yellow);
+    transform: rotate(-30deg);
+    transform-origin: right;
 }
 
 .hero-button-link {
-  display: inline-flex;
-  gap: 10px;
+    display: inline-flex;
+    gap: 10px;
 }
 
 /* ========================================================= Tablet ========================================================= */
 @media screen and (min-width: 768px) {
-
     .hero {
         padding-top: 106px;
     }
@@ -149,83 +117,34 @@
         bottom: 50px;
         right: 32px;
     }
-
-  .hero-title {
-    font-size: 54px;
-    font-weight: 400;
-    line-height: 1.18;
-    letter-spacing: -0.03em;
-    margin: 56px 0 40px 0;
-    max-width: 549px;
-  }
-
-  .hero-group {
-    position: absolute;
-    top: 80px;
-    right: 36px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
-
-  .hero-group-icon {
-    fill: var(--yellow);
-  }
-
-  .hero-group-text {
-    color: rgba(252, 249, 249, 0.4);
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: normal;
-    letter-spacing: -0.04em;
-  }
-
-  .hero-button {
-    margin-left: 141px;
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: -0.04em;
-  }
-
-  .hero-img-ellipse {
-    display: block;
-    width: 139px;
-    height: 99px;
-    position: absolute;
-    bottom: 50px;
-    right: 32px;
-  }
-
 }
 
 /* ========================================================= Descktop ======================================================= */
 @media screen and (min-width: 1280px) {
-  .hero-block {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    gap: 40px;
-    padding-top: 20px;
-  }
+    .hero-block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 40px;
+        padding-top: 20px;
+    }
 
-  .hero-title {
-    max-width: 518px;
-    margin-top: 95px;
-  }
+    .hero-title {
+        max-width: 518px;
+        margin-top: 95px;
+    }
 
-  .hero-button {
-    margin-left: 141px;
-  }
+    .hero-button {
+        margin-left: 141px;
+    }
 
-  .hero-group {
-    top: 108px;
-    right: 98px;
-  }
+    .hero-group {
+        top: 108px;
+        right: 98px;
+    }
 
-  .hero-img-ellipse {
-    right: 94px;
-    bottom: 74px;
-  }
+    .hero-img-ellipse {
+        right: 94px;
+        bottom: 74px;
+    }
 }
