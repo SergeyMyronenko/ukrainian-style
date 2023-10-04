@@ -1,17 +1,15 @@
 .main-order-container {
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0;
 }
 .order-background-img {
   max-width: 375px;
   height: 550px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(./img/your-order/order_back_img_mob.jpg);
+  background-image: url(../img/your-order/order_back_img_mob.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 100%;
   margin-bottom: 80px;
 }
 
@@ -77,14 +75,15 @@
 /* ========== TABLET ========== */
 @media screen and (min-width: 768px) {
   .main-order-container {
-    background-image: url(./img/your-order/ornament-tablet.png);
+    padding: 0;
+    background-image: url(../img/your-order/ornament-tablet.png);
     background-repeat: no-repeat;
     background-position: left bottom;
   }
   .order-background-img {
     max-width: 768px;
     height: 776px;
-    background-image: url(./img/your-order/order_back_img_tablet.jpg);
+    background-image: url(../img/your-order/order_back_img_tablet.jpg);
     margin-bottom: 100px;
   }
 
@@ -94,9 +93,11 @@
     padding-left: 98px;
   }
   .order-container {
+    display: flex;
     flex-direction: column-reverse;
     gap: 100px;
     /* margin-bottom: 179px; */
+    padding-bottom: 79px;
   }
   .order-title {
     width: 542px;
@@ -116,23 +117,25 @@
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .order-background-img {
-    background-image: url(./img/your-order/order_back_img_tablet@2x.jpg);
+    background-image: url(../img/your-order/order_back_img_tablet@2x.jpg);
   }
   .ornamet-background-img {
-    background-image: url(./img/your-order/elementsornam@2x.png);
+    background-image: url(../img/your-order/ornament-tablet2x.png);
     margin-bottom: 100px;
   }
 }
 /* ========== DESKTOP ========== */
 @media screen and (min-width: 1280px) {
   .main-order-container {
-    padding: 0;
-    background-image: url(./img/your-order/ornament-desk.png);
+    background-image: url(../img/your-order/ornament-desk.png);
+    background-repeat: no-repeat;
+    background-origin: padding-box;
   }
   .order-box {
     width: 542px;
   }
   .order-background-img {
+    background-image: url(../img/your-order/order_back_img_desk.jpg);
     max-width: 1282px;
     height: 776px;
   }
@@ -153,7 +156,11 @@
   screen and (min-resolution: 2dppx) and (min-width: 1280px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 1280px) {
   .order-background-img {
-    background-image: url(./img/your-order/order_back_img_desk@2x.jpg);
+    background-image: url(../img/your-order/order_back_img_desk@2x.jpg);
+  }
+  .main-order-container {
+    padding: 0;
+    background-image: url(../img/your-order/ornament-desk2x.png);
   }
 }
 /* ========== DESKTOP 1440 ========== */
