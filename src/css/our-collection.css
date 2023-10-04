@@ -1,15 +1,14 @@
-.our-collection {
+.our-collection-container {
   background-image: url(../img/our-collection/mobile-ornament1x.png);
   background-repeat: no-repeat;
   background-position: left top 298px;
-  padding-top: 18px;
-  background-origin: content-box;
+  /* background-origin: content-box; */
 }
 .our-collection-main-text {
   color: var(--white, #fcf9f9);
   font-size: 32px;
   font-weight: 500;
-  line-height: 1.375; /* 137.5% */
+  line-height: 1.375;
   letter-spacing: -0.03em;
   text-align: center;
 }
@@ -40,7 +39,7 @@
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1; /* 100% */
+  line-height: 1;
   letter-spacing: 0.05em;
   margin-top: 18px;
 }
@@ -48,7 +47,7 @@
   color: rgba(252, 249, 249, 0.4);
   font-size: 14px;
   font-weight: 400;
-  line-height: 1; /* 100% */
+  line-height: 1;
   letter-spacing: 0.05em;
   margin-top: 8px;
 }
@@ -67,8 +66,8 @@
   .our-collection-photo {
     height: 430px;
   }
-  .our-collection {
-    background-image: url(../img/our-collection/background-elements-desktop.png);
+  .our-collection-container {
+    background-image: url(../img/our-collection/tablet-ornament1x.png);
     background-repeat: no-repeat;
     background-position: left top 201px;
   }
@@ -77,8 +76,8 @@
 /*--DEKSTOP--*/
 
 @media screen and (min-width: 1280px) {
-  .our-collection {
-    background-image: url(../img/our-collection/background-elements-desktop.png);
+  .our-collection-container {
+    background-image: url(../img/our-collection/desktop-ornament1x.png);
     background-repeat: no-repeat;
   }
   .our-collection-list {
@@ -93,18 +92,18 @@
   }
 }
 
-@media (min-resolution: 192dpi) and (min-width: 375px) {
-  .our-collection {
+/* @media (min-resolution: 192dpi) and (min-width: 375px) {
+  .our-collection-container {
     background-image: url(../img/our-collection/mobile-ornament2x.png);
   }
 }
 @media (min-resolution: 192dpi) and (min-width: 768px) {
-  .our-collection {
-    background-image: url(../img/our-collection/background-elements-desktop@2x.png);
+  .our-collection-container {
+    background-image: url(../img/our-collection/tablet-ornament2x.png);
   }
 }
 @media (min-resolution: 192dpi) and (min-width: 1280px) {
-  .our-collection {
-    background-image: url(../img/our-collection/background-elements-desktop@2x.png);
+  .our-collection-container {
+    background-image: url(../img/our-collection/desktop-ornament2x.png);
   }
-}
+} */
