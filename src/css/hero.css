@@ -26,8 +26,8 @@
     color: var(--yellow);
 }
 
-.hero-button {
-    display: flex;
+.hero-link {
+    display: inline-flex;
     height: 49px;
     padding: 14px 41px;
     justify-content: center;
@@ -47,8 +47,8 @@
     gap: 10px;
 }
 
-.hero-button:hover,
-.hero-button:focus {
+.hero-link:hover,
+.hero-link:focus {
     border: 1px solid var(--yellow);
 }
 
@@ -57,11 +57,6 @@
     height: 10px;
     fill: var(--yellow);
     transform: rotate(-30deg);
-}
-
-.hero-button-link {
-    display: inline-flex;
-    gap: 10px;
 }
 
 /* ========================================================= Tablet ========================================================= */
@@ -83,6 +78,7 @@
         position: absolute;
         top: 80px;
         right: 36px;
+        width: 115px;
         display: inline-flex;
         flex-direction: column;
         align-items: center;
@@ -102,7 +98,7 @@
         letter-spacing: -0.04em;
     }
 
-    .hero-button {
+    .hero-link {
         margin-left: 173px;
         font-size: 16px;
         font-weight: 600;
@@ -124,6 +120,7 @@
     .hero {
         padding-top: 100px;
     }
+
     .hero-block {
         display: flex;
         flex-direction: row-reverse;
@@ -137,8 +134,13 @@
         margin-top: 95px;
     }
 
-    .hero-button {
-        margin-left: 141px;
+    .hero-link {
+        margin-left: 173px;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.04em;
     }
 
     .hero-group {
@@ -150,12 +152,6 @@
         right: 94px;
         bottom: 74px;
     }
-
-    .hero-button-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    } 
 
     .hero-title {
         font-size: 54px;
@@ -177,7 +173,6 @@
         top: 0;
         right: 32px;
         display: flex;
-        width: 115px;
         flex-direction: column;
         align-items: center;
         gap: 16px;
@@ -198,12 +193,6 @@
         letter-spacing: -0.04em;
     }
 
-    .hero-button {
-        margin-left: 173px;
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: -0.04em;
-    }
 
     .hero-img-ellipse {
         display: block;
@@ -224,13 +213,6 @@
         font-size: 16px;
         font-weight: 400;
         line-height: normal;
-        letter-spacing: -0.04em;
-    }
-
-    .hero-button {
-        margin-left: 141px;
-        font-size: 16px;
-        font-weight: 600;
         letter-spacing: -0.04em;
     }
 }
