@@ -28,19 +28,19 @@
 }
 .about-ornament-wr {
   padding-bottom: 62px;
-  background-image: url(./img/about-us/about-elements.png);
+  background-image: url(../img/about-us/about-elements.png);
   background-position: right bottom;
   background-repeat: no-repeat;
 }
 @media (resolution: 192dpi) {
   .about-ornament-wr {
-    background-image: url(./img/about-us/about-elements@2x.png);
+    background-image: url(../img/about-us/about-elements@2x.png);
   }
 }
 @media (min-width: 768px) {
   .about-ornament-wr {
     padding-bottom: 50px;
-    background-image: url(./img/about-us/about-elements-dt1280.png);
+    background-image: url(../img/about-us/about-elements-dt1280.png);
   }
   .about-img {
     margin-top: 40px;
@@ -57,7 +57,7 @@
 }
 @media (resolution: 192dpi) and (min-width: 768px) {
   .about-ornament-wr {
-    background-image: url(./img/about-us/about-elements-dt1280-2x.png);
+    background-image: url(../img/about-us/about-elements-dt1280-2x.png);
   }
 }
 @media (min-width: 1280px) {
