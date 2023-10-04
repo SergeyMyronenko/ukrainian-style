@@ -46,6 +46,11 @@
     margin-right: auto;
 }
 
+.hero-button:hover,
+.hero-button:focus {
+    border: 1px solid var(--yellow);
+}
+
 .hero-link-icon {
     width: 26px;
     height: 10px;
