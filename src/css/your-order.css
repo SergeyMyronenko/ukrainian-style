@@ -2,6 +2,7 @@
     max-width: 375px;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 .order-background-img {
     max-width: 375px;
@@ -15,9 +16,24 @@
     background-size: cover;
     margin-bottom: 80px;
   }
+.ornamet-background-img {
+    position: absolute;
+    width: 545px;
+    height: 484px;
+    background-image: 
+      url(../img/your-order/elementsornam.png);
+    background-repeat: no-repeat;
+ 
+    bottom: -79px;
+    left: 10px;
+
+}
 .order-shirt-foto {
     display: none;
 
+}
+.ornamet-background-img {
+    display: none;
 }
 .order-container {
     display: flex;
@@ -92,15 +108,24 @@ margin-bottom: 20px;
           url(../img/your-order/order_back_img_tablet.jpg);
         margin-bottom: 100px;
     }
+    .ornamet-background-img {
+        display: block;
+        bottom: -79px;
+        left: -10px;
+    
+    }
     .order-shirt-foto {
-        display: contents;
-        padding-right: 32px;
-        padding-left: auto;
+        display: block;
+        max-width: 638px;
+        height: auto;
+        margin-left: 66px;
+        /* padding-left: 32px;
+        padding-left: auto; */
     }
 .order-container {
     flex-direction: column-reverse;
     gap: 100px;
-    margin-bottom: 179px;
+    /* margin-bottom: 179px; */
     padding-left: 32px;
     padding-right: 32px;
 }
@@ -125,6 +150,11 @@ margin-bottom: 20px;
         background-image: 
         url(../img/your-order/order_back_img_tablet@2x.jpg);
   }
+  .ornamet-background-img {
+    background-image: 
+      url(../img/your-order/elementsornam@2x.png);
+    margin-bottom: 100px;
+}
 }
 /* ========== DESKTOP ========== */
  @media screen and (min-width: 1280px) {
@@ -139,15 +169,21 @@ margin-bottom: 20px;
         margin-bottom: 150px;
         
     }
+    .ornamet-background-img {
+        left: 0;
+    
+    }
     .order-container {
         flex-direction: row;
         gap: 50px;
-        margin-bottom: 179px;
+        /* margin-bottom: 179px; */
         padding-left: 64px;
         padding-right: 64px;
     }
     .order-shirt-foto {
-        height: 521px;
+        max-width: 524px;
+        height: auto;
+        margin-left: 0;
     }
 }
 /* ========== DESKTOP 2x ========== */
