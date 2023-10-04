@@ -8,6 +8,7 @@
 }
 
 .hero {
+
     position: relative;
     padding-top: 60px;
 }
@@ -21,13 +22,12 @@
     margin: 0 0 20px 0;
     max-width: 335px;
 }
-
 .hero-title-span {
     color: var(--yellow);
 }
 
 .hero-button {
-    display: block;
+    display: flex;
     height: 49px;
     padding: 14px 41px;
     justify-content: center;
@@ -44,6 +44,7 @@
     margin-bottom: 40px;
     margin-left: 90px;
     margin-right: auto;
+    gap: 10px;
 }
 
 .hero-button:hover,
@@ -56,8 +57,6 @@
     height: 10px;
     fill: var(--yellow);
     transform: rotate(-30deg);
-    transform-origin: right;
-}
 
 .hero-button-link {
     display: inline-flex;
@@ -121,6 +120,9 @@
 
 /* ========================================================= Descktop ======================================================= */
 @media screen and (min-width: 1280px) {
+   .hero {
+    padding-top: 100px;
+  }
     .hero-block {
         display: flex;
         flex-direction: row-reverse;
@@ -147,4 +149,83 @@
         right: 94px;
         bottom: 74px;
     }
+  .hero-button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } 
+  .hero-title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+    margin: 0 0 40px 0;
+     max-width: 518px;
+    margin-top: 94px;
+  }
+  .hero-sun {
+    position: relative;
+    padding-top: 26px;
+  }
+  .hero-group {
+    position: absolute;
+    top: 0;
+    right: 32px;
+    display: flex;
+    width: 115px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+      top: 114px;
+    right: 98px;
+  }
+
+  .hero-group-icon {
+    fill: var(--yellow);
+  }
+
+  .hero-group-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-button {
+    margin-left: 173px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-img-ellipse {
+    display: block;
+    width: 139px;
+    height: 99px;
+    position: absolute;
+    bottom: 0;
+    right: 97px;
+  }
+
+  .hero-group-icon {
+    fill: var(--yellow);
+  }
+
+  .hero-group-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
+
+  .hero-button {
+    margin-left: 141px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+  }
 }
