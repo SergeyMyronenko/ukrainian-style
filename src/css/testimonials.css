@@ -65,6 +65,9 @@
   .testimonials-box-image {
     width: calc((100% - 32px) / 2);
   }
+  .testimonials-box {
+    margin: 0;
+  }
 
   .testimonial-title-main {
     font-size: 44px;
@@ -84,6 +87,6 @@
     display: block;
   }
   .testimonials-box-image {
-    width: calc((100% - 78px) / 3);
+    width: calc((100% - 52px) / 3);
   }
 }
