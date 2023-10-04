@@ -9,6 +9,7 @@
 
 .hero {
     position: relative;
+    padding-top: 60px;
 }
 
 .hero-title {
@@ -17,7 +18,7 @@
     font-weight: 400;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    margin: 60px 0 20px 0;
+    margin: 0 0 20px 0;
     max-width: 335px;
 }
 
@@ -42,6 +43,7 @@
     text-transform: uppercase;
     margin-bottom: 40px;
     margin-left: 90px;
+    margin-right: auto;
 }
 
 .hero-link-icon {
@@ -59,12 +61,16 @@
 
 /* ========================================================= Tablet ========================================================= */
 @media screen and (min-width: 768px) {
+    .hero {
+        padding-top: 106px;
+    }
+    
     .hero-title {
         font-size: 54px;
         font-weight: 400;
         line-height: 1.18;
         letter-spacing: -0.03em;
-        margin: 56px 0 40px 0;
+        margin: 0 0 40px 0;
         max-width: 549px;
         }
 
@@ -92,7 +98,7 @@
     }
 
     .hero-button {
-        margin-left: 141px;
+        margin-left: 173px;
         font-size: 16px;
         font-weight: 600;
         letter-spacing: -0.04em;
