@@ -39,23 +39,6 @@
 }
 
 .hero-button {
-  display: block;
-  height: 49px;
-  padding: 14px 41px;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  color: var(--white, #fcf9f9);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  margin-left: 90px;
-  margin-right: auto;
   display: flex;
   height: 49px;
   padding: 14px 41px;
@@ -72,6 +55,7 @@
   text-transform: uppercase;
   margin-bottom: 40px;
   margin-left: 90px;
+  gap: 10px;
 }
 
 .hero-link-icon {
@@ -79,7 +63,6 @@
   height: 10px;
   fill: var(--yellow);
   transform: rotate(-30deg);
-  transform-origin: right;
 }
 
 .hero-button-link {
@@ -89,6 +72,9 @@
 
 /* ========================================================= Tablet ========================================================= */
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 80px;
+  }
   .hero-title {
     font-size: 54px;
     font-weight: 400;
@@ -96,6 +82,7 @@
     letter-spacing: -0.03em;
     margin: 0 0 40px 0;
     max-width: 549px;
+    padding-top: 26px;
   }
   .hero-sun {
     position: relative;
@@ -137,7 +124,7 @@
     width: 139px;
     height: 99px;
     position: absolute;
-    bottom: 50px;
+    bottom: 0;
     right: 32px;
   }
 
@@ -160,43 +147,42 @@
     font-weight: 600;
     letter-spacing: -0.04em;
   }
-
-  .hero-img-ellipse {
-    display: block;
-    width: 139px;
-    height: 99px;
-    position: absolute;
-    bottom: 50px;
-    right: 32px;
-  }
 }
 
 /* ========================================================= Descktop ======================================================= */
 @media screen and (min-width: 1280px) {
+  .hero {
+    padding-top: 100px;
+  }
   .hero-block {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 40px;
-    padding-top: 20px;
   }
 
   .hero-title {
     max-width: 518px;
-    margin-top: 95px;
+    margin-top: 94px;
   }
 
   .hero-button {
     margin-left: 141px;
   }
+  .hero-button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .hero-group {
-    top: 108px;
+    top: 114px;
     right: 98px;
   }
 
   .hero-img-ellipse {
-    right: 94px;
-    bottom: 74px;
+    position: absolute;
+    bottom: 0;
+    right: 97px;
   }
 }
