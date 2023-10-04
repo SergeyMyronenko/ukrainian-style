@@ -1,33 +1,34 @@
 /* ========================================================= Mobile ========================================================= */
 .hero-group {
-    display: none;
+  display: none;
 }
 
 .hero-img-ellipse {
-    display: none;
+  display: none;
 }
 
 .hero {
-    position: relative;
-    padding-top: 60px;
+  position: relative;
+  padding-top: 60px;
 }
 
 .hero-title {
-    color: var(--white);
-    font-size: 44px;
-    font-weight: 400;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    margin: 0 0 20px 0;
-    max-width: 335px;
+  color: var(--white);
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  margin: 0 0 20px 0;
+  max-width: 335px;
 }
 
 .hero-title-span {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
+
 .hero-link {
-    display: inline-flex;
+    display: flex;
     height: 49px;
     padding: 14px 41px;
     justify-content: center;
@@ -57,10 +58,17 @@
     height: 10px;
     fill: var(--yellow);
     transform: rotate(-30deg);
+
+
+.hero-button-link {
+  display: inline-flex;
+  gap: 10px;
+
 }
 
 /* ========================================================= Tablet ========================================================= */
 @media screen and (min-width: 768px) {
+
     .hero {
         padding-top: 106px;
     }
@@ -113,10 +121,20 @@
         bottom: 50px;
         right: 32px;
     }
+
+
+  .hero-button {
+    margin-left: 173px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+  }
+
 }
 
 /* ========================================================= Descktop ======================================================= */
 @media screen and (min-width: 1280px) {
+
     .hero {
         padding-top: 100px;
     }
@@ -130,6 +148,11 @@
     }
 
     .hero-title {
+      font-size: 54px;
+      font-weight: 400;
+      line-height: 1.18;
+      letter-spacing: -0.03em;
+      margin: 0 0 40px 0;
         max-width: 518px;
         margin-top: 95px;
     }
@@ -142,45 +165,37 @@
         font-weight: 600;
         letter-spacing: -0.04em;
     }
-
-    .hero-group {
-        top: 108px;
-        right: 98px;
-    }
-
-    .hero-img-ellipse {
+        .hero-img-ellipse {
         right: 94px;
         bottom: 74px;
     }
 
-    .hero-title {
-        font-size: 54px;
-        font-weight: 400;
-        line-height: 1.18;
-        letter-spacing: -0.03em;
-        margin: 0 0 40px 0;
-        max-width: 518px;
-        margin-top: 94px;
-    }
-
-    .hero-sun {
-        position: relative;
-        padding-top: 26px;
-    }
-
-    .hero-group {
-        position: absolute;
-        top: 0;
-        right: 32px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 16px;
-        top: 114px;
-        right: 98px;
-    }
-
-    .hero-group-icon {
+  .hero-button {
+    margin-left: 141px;
+  }
+  .hero-button-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-sun {
+    position: relative;
+    padding-top: 26px;
+  }
+  .hero-group {
+    position: absolute;
+    top: 0;
+    right: 32px;
+    display: flex;
+    width: 115px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    top: 114px;
+    right: 98px;
+  }
+  
+  .hero-group-icon {
         fill: var(--yellow);
     }
 
@@ -201,18 +216,5 @@
         position: absolute;
         bottom: 0;
         right: 97px;
-    }
-
-    .hero-group-icon {
-        fill: var(--yellow);
-    }
-
-    .hero-group-text {
-        color: rgba(252, 249, 249, 0.4);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: -0.04em;
     }
 }
