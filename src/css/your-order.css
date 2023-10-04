@@ -4,7 +4,7 @@
     margin-right: auto;
 }
 .order-background-img {
-    width: 375px;
+    max-width: 375px;
     height: 550px;
     margin-left: auto;
     margin-right: auto;
@@ -86,7 +86,7 @@ margin-bottom: 20px;
         max-width: 768px;
     }
     .order-background-img {
-        width: 768px;
+        max-width: 768px;
         height: 776px;
         background-image: 
           url(../img/your-order/order_back_img_tablet.jpg);
@@ -132,7 +132,7 @@ margin-bottom: 20px;
         max-width: 1280px;
     }
     .order-background-img {
-        width: 1282px;
+       max-width: 1282px;
         height: 776px;
         background-image: 
           url(../img/your-order/order_back_img_desk.jpg);
@@ -166,7 +166,7 @@ margin-bottom: 20px;
     }
 
     .order-background-img {
-        width: 1440px;
+        max-width: 1440px;
         height: 776px;
         background-image: 
           url(../img/your-order/order_back_img_desktop.jpg);
