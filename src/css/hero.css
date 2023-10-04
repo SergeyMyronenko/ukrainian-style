@@ -28,7 +28,7 @@
 
 
 .hero-link {
-    display: flex;
+    display: inline-flex;
     height: 49px;
     padding: 14px 41px;
     justify-content: center;
