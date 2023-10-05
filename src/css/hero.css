@@ -29,8 +29,8 @@
   color: var(--yellow);
 }
 
-
 .hero-link {
+
     display: inline-flex;
     height: 49px;
     padding: 14px 41px;
@@ -54,10 +54,11 @@
 
 .hero-link:hover,
 .hero-link:focus {
-    border: 1px solid var(--yellow);
+  border: 1px solid var(--yellow);
 }
 
 .hero-link-icon {
+
     width: 26px;
     height: 10px;
     fill: var(--yellow);
@@ -67,28 +68,26 @@
 .hero-button-link {
   display: inline-flex;
   gap: 10px;
-
 }
 
 /* ========================================================= Tablet ========================================================= */
 @media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 106px;
+  }
 
-    .hero {
-        padding-top: 106px;
-    }
-    
-    .hero-title {
-        font-size: 54px;
-        font-weight: 400;
-        line-height: 1.18;
-        letter-spacing: -0.03em;
-        margin: 0 0 40px 0;
-        max-width: 549px;
-    }
+  .hero-title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+    margin: 0 0 40px 0;
+    max-width: 549px;
+  }
 
     .hero-group {
         position: absolute;
-        top: -38px;
+        top: 80px;
         right: 36px;
         width: 115px;
         display: inline-flex;
@@ -97,35 +96,34 @@
         gap: 16px;
     }
 
-    .hero-group-icon {
-        fill: var(--yellow);
-    }
+  .hero-group-icon {
+    fill: var(--yellow);
+  }
 
-    .hero-group-text {
-        color: rgba(252, 249, 249, 0.40);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: -0.04em;
-    }
+  .hero-group-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
 
-    .hero-link {
-        margin-left: 173px;
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: -0.04em;
-    }
+  .hero-link {
+    margin-left: 173px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+  }
 
     .hero-img-ellipse {
         display: block;
         width: 139px;
         height: 99px;
         position: absolute;
-        bottom: 0;
+        bottom: 50px;
         right: 32px;
     }
-
 
   .hero-button {
     margin-left: 173px;
@@ -133,45 +131,44 @@
     font-weight: 600;
     letter-spacing: -0.04em;
   }
-
 }
 
 /* ========================================================= Descktop ======================================================= */
 @media screen and (min-width: 1280px) {
-
-    .hero {
-        padding-top: 100px;
-    }
+  .hero {
+    padding-top: 100px;
+  }
 
     .hero-block {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-end;
         gap: 40px;
+        padding-top: 20px;
     }
 
-    .hero-title {
-      font-size: 54px;
-      font-weight: 400;
-      line-height: 1.18;
-      letter-spacing: -0.03em;
-      margin: 0 0 40px 0;
-        max-width: 518px;
-        margin-top: 95px;
-    }
+  .hero-title {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 1.18;
+    letter-spacing: -0.03em;
+    margin: 0 0 40px 0;
+    max-width: 518px;
+    margin-top: 95px;
+  }
 
-    .hero-link {
-        margin-left: 173px;
-        justify-content: center;
-        align-items: center;
-        font-size: 16px;
-        font-weight: 600;
-        letter-spacing: -0.04em;
-    }
-        .hero-img-ellipse {
-        right: 94px;
-        bottom: 74px;
-    }
+  .hero-link {
+    margin-left: 173px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
+  }
+  .hero-img-ellipse {
+    right: 94px;
+    bottom: 74px;
+  }
 
   .hero-button {
     margin-left: 141px;
@@ -196,27 +193,26 @@
     top: 14px;
     right: 98px;
   }
-  
+
   .hero-group-icon {
-        fill: var(--yellow);
-    }
+    fill: var(--yellow);
+  }
 
-    .hero-group-text {
-        color: rgba(252, 249, 249, 0.4);
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: -0.04em;
-    }
+  .hero-group-text {
+    color: rgba(252, 249, 249, 0.4);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.04em;
+  }
 
-
-    .hero-img-ellipse {
-        display: block;
-        width: 139px;
-        height: 99px;
-        position: absolute;
-        bottom: 0;
-        right: 97px;
-    }
+  .hero-img-ellipse {
+    display: block;
+    width: 139px;
+    height: 99px;
+    position: absolute;
+    bottom: 0;
+    right: 97px;
+  }
 }
