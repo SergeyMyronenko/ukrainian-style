@@ -68,7 +68,7 @@
     height: 430px;
   }
 
-  .our-collection {
+  .our-collection-container {
     background-image: url(/img/our-collection/tablet-ornament1x.png);
 
     background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 
 @media screen and (min-width: 1280px) {
 
-  .our-collection {
+  .our-collection-container {
     padding-top: 70px;
     background-image: url(/img/our-collection/desktop-ornament1x.png);
     background-repeat: no-repeat;
