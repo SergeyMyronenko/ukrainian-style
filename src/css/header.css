@@ -1,8 +1,20 @@
+body {
+  position: relative;
+}
+.page-header {
+  width: 100%;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .header-main {
+  max-width: 375px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 24px;
 }
 .header-nav-list {
   display: none;
@@ -13,7 +25,6 @@
 .social-list {
   display: flex;
   gap: 12px;
-  margin-right: 12px;
   margin-left: auto;
 }
 .social-list-icon {
@@ -42,6 +53,7 @@
   background-color: transparent;
   border: none;
   padding: 0;
+  margin-left: 12px;
 }
 
 /* =========== MODAL WINDOW  =============== */
