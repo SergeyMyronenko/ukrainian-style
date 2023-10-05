@@ -8,8 +8,11 @@
 }
 
 .hero {
-  position: relative;
   padding-top: 60px;
+}
+
+.hero-sun {
+    position: relative;
 }
 
 .hero-title {
@@ -82,16 +85,16 @@
     max-width: 549px;
   }
 
-  .hero-group {
-    position: absolute;
-    top: 80px;
-    right: 36px;
-    width: 115px;
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-  }
+    .hero-group {
+        position: absolute;
+        top: -30px;
+        right: 36px;
+        width: 115px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
 
   .hero-group-icon {
     fill: var(--yellow);
@@ -113,14 +116,14 @@
     letter-spacing: -0.04em;
   }
 
-  .hero-img-ellipse {
-    display: block;
-    width: 139px;
-    height: 99px;
-    position: absolute;
-    bottom: 50px;
-    right: 32px;
-  }
+    .hero-img-ellipse {
+        display: block;
+        width: 139px;
+        height: 99px;
+        position: absolute;
+        bottom: 0;
+        right: 32px;
+    }
 
   .hero-button {
     margin-left: 173px;
@@ -136,13 +139,13 @@
     padding-top: 100px;
   }
 
-  .hero-block {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    gap: 40px;
-    padding-top: 20px;
-  }
+    .hero-block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        gap: 40px;
+        padding-top: 20px;
+    }
 
   .hero-title {
     font-size: 54px;
@@ -182,13 +185,12 @@
   .hero-group {
     position: absolute;
     top: 0;
-    right: 32px;
     display: flex;
     width: 115px;
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    top: 114px;
+    top: 14px;
     right: 98px;
   }
 
