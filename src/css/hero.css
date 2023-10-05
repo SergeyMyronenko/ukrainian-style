@@ -142,7 +142,6 @@
     flex-direction: row-reverse;
     justify-content: flex-end;
     gap: 40px;
-    padding-top: 20px;
   }
 
   .hero-title {
