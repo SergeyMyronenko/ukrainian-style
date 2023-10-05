@@ -89,7 +89,7 @@
 
 /* ========== TABLET ========== */
 @media screen and (min-width: 768px) {
-  .main-order-container .order-container {
+  .order-container {
     background-image: url(/img/your-order/ornament-tablet.png);
     background-repeat: no-repeat;
     background-position: left bottom;
@@ -111,8 +111,9 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 100px;
-    /* margin-bottom: 179px;  */
-    
+  }
+ .main-order-container  .order-container {
+    padding-bottom: 79px;
   }
   .order-title {
     width: 542px;
@@ -139,14 +140,18 @@
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   
-    .main-order-container .order-container {
+   .order-container {
     background-image: url(/img/your-order/ornament-tablet2x.png);
+    background-size: 323px;
     /* margin-bottom: 100px; */
   }
 }
 /* ========== DESKTOP ========== */
 @media screen and (min-width: 1280px) {
-   {
+  .main-order-container  .order-container {
+    padding-bottom: 0;
+  }
+  .order-container {
     background-image: url(/img/your-order/ornament-desk.png);
     background-repeat: no-repeat;
     background-origin: padding-box;
@@ -165,8 +170,9 @@
     display: flex;
     flex-direction: row;
     gap: 50px;
-    /* margin-bottom: 179px; */
+    
   }
+ 
   .order-shirt-foto {
     max-width: 524px;
     height: 521px;
@@ -180,7 +186,7 @@
   .order-background-img {
     background-image: url(/img/your-order/order_back_img_desk@2x.jpg);
   }
-  .main-order-container {
+  .order-container {
     padding: 0;
     background-image: url(/img/your-order/ornament-desk2x.png);
   }
