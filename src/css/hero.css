@@ -87,7 +87,7 @@
 
     .hero-group {
         position: absolute;
-        top: 80px;
+        top: -30px;
         right: 36px;
         width: 115px;
         display: inline-flex;
@@ -121,7 +121,7 @@
         width: 139px;
         height: 99px;
         position: absolute;
-        bottom: 50px;
+        bottom: 0;
         right: 32px;
     }
 
