@@ -27,24 +27,26 @@
 }
 
 .hero-link {
-  display: flex;
-  height: 49px;
-  padding: 14px 41px;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  color: var(--white, #fcf9f9);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-  margin-bottom: 40px;
-  margin-left: 90px;
-  margin-right: auto;
-  gap: 10px;
+
+    display: inline-flex;
+    height: 49px;
+    padding: 14px 41px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(252, 249, 249, 0.10);
+    color: var(--white, #FCF9F9);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    margin-right: auto;
+    gap: 10px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-link:hover,
@@ -53,10 +55,11 @@
 }
 
 .hero-link-icon {
-  width: 26px;
-  height: 10px;
-  fill: var(--yellow);
-  transform: rotate(-30deg);
+
+    width: 26px;
+    height: 10px;
+    fill: var(--yellow);
+    transform: rotate(-30deg);
 }
 
 .hero-button-link {
