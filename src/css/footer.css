@@ -85,8 +85,9 @@
 }
 
 @media screen and (min-resolution: 192dpi) and (min-width: 768px) {
-  .footer {
+  .footer-wrapper {
     background-image: url(/img/footer-bg/tablet@2.png);
+    background-repeat: no-repeat;
     background-size: contain;
   }
 }
