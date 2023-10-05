@@ -89,11 +89,11 @@
 
 /* ========== TABLET ========== */
 @media screen and (min-width: 768px) {
-  .main-order-container {
-    padding: 0;
+  .main-order-container .order-container {
     background-image: url(/img/your-order/ornament-tablet.png);
     background-repeat: no-repeat;
     background-position: left bottom;
+    padding-bottom: 79px;
   }
   .order-background-img {
     max-width: 768px;
@@ -107,12 +107,12 @@
     height: auto;
     padding-left: 98px;
   }
-  .order-container {
+ .order-container {
     display: flex;
     flex-direction: column-reverse;
     gap: 100px;
-    /* margin-bottom: 179px; */
-    padding-bottom: 79px;
+    /* margin-bottom: 179px;  */
+    
   }
   .order-title {
     width: 542px;
@@ -138,21 +138,21 @@
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768px),
   screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
-  .order-background-img {
-    background-image: url(/img/your-order/order_back_img_tablet@2x.jpg);
-  }
-  .ornamet-background-img {
+  
+    .main-order-container .order-container {
     background-image: url(/img/your-order/ornament-tablet2x.png);
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 }
 /* ========== DESKTOP ========== */
 @media screen and (min-width: 1280px) {
-  .main-order-container {
+   {
     background-image: url(/img/your-order/ornament-desk.png);
     background-repeat: no-repeat;
     background-origin: padding-box;
+    padding-bottom: 0;
   }
+ 
   .order-box {
     width: 542px;
   }
