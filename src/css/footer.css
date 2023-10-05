@@ -116,6 +116,7 @@
   .footer-wrapper {
     background-image: url(/img/footer-bg/desktop@2x.png);
     background-size: contain;
+    background-repeat: no-repeat;
     background-position: top right;
   }
 }
