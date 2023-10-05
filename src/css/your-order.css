@@ -31,13 +31,21 @@
 .order-form-input,
 .order-form-comment {
   background-color: var(--primary-color, #1c2225);
+  color: var(--white, #FCF9F9);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.02em;
   width: 100%;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   padding: 14px 16px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline: none;
 }
 .order-form-input {
   margin-bottom: 20px;
+
 }
 .order-form-comment {
   margin-bottom: 40px;
@@ -72,6 +80,13 @@
   fill: var(--yellow, #ecd979);
   transform: rotate(-30deg);
 }
+.order-form-input:focus, .order-form-comment:focus {
+  border: 0.5px solid rgba(252, 249, 249, 0.60);
+}
+.order-form-button:focus {
+  border: 1px solid var(--yellow, #ECD979);
+}
+
 /* ========== TABLET ========== */
 @media screen and (min-width: 768px) {
   .main-order-container {
@@ -111,6 +126,13 @@
   .order-form-button {
     margin-left: 0;
   }
+  .order-form-input:hover, .order-form-comment:hover {
+    border: 0.5px solid rgba(252, 249, 249, 0.60);
+  }
+  .order-form-button:hover {
+    border: 1px solid var(--yellow, #ECD979);
+  }
+
   /* ========== TABLET 2x ========== */
 }
 @media screen and (min-resolution: 192dpi) and (min-width: 768px),
