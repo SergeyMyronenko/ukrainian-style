@@ -21,9 +21,7 @@
 .about-img {
   margin-top: 50px;
 }
-.about-section {
-  /* padding-bottom: 18px; */
-}
+
 .about-ornament-wr {
   max-width: 375px;
   padding-bottom: 62px;
@@ -48,7 +46,7 @@
     max-width: 768px;
     background-size: 385px 484px;
      padding-bottom: 50px;
-    background-image: url(./img/about-us/about-elements-dt1280.png);
+    background-image: url(/img/about-us/about-elements-dt1280.png);
         background-position: right bottom;
         background-repeat: no-repeat;
     
